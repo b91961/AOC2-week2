@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E004E904-4A1C-4D09-99A8-5122B5E4712F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>testApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E5262A5D-2BAF-4ADE-A8DF-43DB9306DD61</key>
+		<string>https://github.com/b91961/AOC2-week2.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>testApp/testApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E5262A5D-2BAF-4ADE-A8DF-43DB9306DD61</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/b91961/AOC2-week2.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E5262A5D-2BAF-4ADE-A8DF-43DB9306DD61</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E5262A5D-2BAF-4ADE-A8DF-43DB9306DD61</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AOC2-week2</string>
+		</dict>
+	</array>
+</dict>
+</plist>
