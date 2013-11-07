@@ -24,6 +24,14 @@
 		57BB91C1182B635100A3ACF8 /* eight_channel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57BB91BE182B635100A3ACF8 /* eight_channel.jpg */; };
 		57BB91C2182B635100A3ACF8 /* four_channel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57BB91BF182B635100A3ACF8 /* four_channel.jpg */; };
 		57BB91C3182B635100A3ACF8 /* sixteen_channel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57BB91C0182B635100A3ACF8 /* sixteen_channel.jpg */; };
+		57BB91C5182B77D300A3ACF8 /* InfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57BB91C4182B77D300A3ACF8 /* InfoView.xib */; };
+		57BB91C8182B787F00A3ACF8 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BB91C7182B787F00A3ACF8 /* InfoViewController.m */; };
+		57BB91CA182B7B4400A3ACF8 /* MoubarakJamal_ProfilePicture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57BB91C9182B7B4400A3ACF8 /* MoubarakJamal_ProfilePicture.jpg */; };
+		57BB91D5182BF76500A3ACF8 /* baseCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BB91CC182BF76500A3ACF8 /* baseCamera.m */; };
+		57BB91D6182BF76500A3ACF8 /* cameraFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BB91CE182BF76500A3ACF8 /* cameraFactory.m */; };
+		57BB91D7182BF76500A3ACF8 /* eightCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BB91D0182BF76500A3ACF8 /* eightCamera.m */; };
+		57BB91D8182BF76500A3ACF8 /* fourCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BB91D2182BF76500A3ACF8 /* fourCamera.m */; };
+		57BB91D9182BF76500A3ACF8 /* sixteenCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BB91D4182BF76500A3ACF8 /* sixteenCamera.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +67,20 @@
 		57BB91BE182B635100A3ACF8 /* eight_channel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eight_channel.jpg; sourceTree = "<group>"; };
 		57BB91BF182B635100A3ACF8 /* four_channel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = four_channel.jpg; sourceTree = "<group>"; };
 		57BB91C0182B635100A3ACF8 /* sixteen_channel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sixteen_channel.jpg; sourceTree = "<group>"; };
+		57BB91C4182B77D300A3ACF8 /* InfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoView.xib; sourceTree = "<group>"; };
+		57BB91C6182B787F00A3ACF8 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		57BB91C7182B787F00A3ACF8 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		57BB91C9182B7B4400A3ACF8 /* MoubarakJamal_ProfilePicture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MoubarakJamal_ProfilePicture.jpg; sourceTree = "<group>"; };
+		57BB91CB182BF76500A3ACF8 /* baseCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseCamera.h; sourceTree = "<group>"; };
+		57BB91CC182BF76500A3ACF8 /* baseCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baseCamera.m; sourceTree = "<group>"; };
+		57BB91CD182BF76500A3ACF8 /* cameraFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cameraFactory.h; sourceTree = "<group>"; };
+		57BB91CE182BF76500A3ACF8 /* cameraFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cameraFactory.m; sourceTree = "<group>"; };
+		57BB91CF182BF76500A3ACF8 /* eightCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eightCamera.h; sourceTree = "<group>"; };
+		57BB91D0182BF76500A3ACF8 /* eightCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = eightCamera.m; sourceTree = "<group>"; };
+		57BB91D1182BF76500A3ACF8 /* fourCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fourCamera.h; sourceTree = "<group>"; };
+		57BB91D2182BF76500A3ACF8 /* fourCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fourCamera.m; sourceTree = "<group>"; };
+		57BB91D3182BF76500A3ACF8 /* sixteenCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sixteenCamera.h; sourceTree = "<group>"; };
+		57BB91D4182BF76500A3ACF8 /* sixteenCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sixteenCamera.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +140,7 @@
 		57BB918F182B4DD600A3ACF8 /* testApp */ = {
 			isa = PBXGroup;
 			children = (
+				57BB91C9182B7B4400A3ACF8 /* MoubarakJamal_ProfilePicture.jpg */,
 				57BB91BE182B635100A3ACF8 /* eight_channel.jpg */,
 				57BB91BF182B635100A3ACF8 /* four_channel.jpg */,
 				57BB91C0182B635100A3ACF8 /* sixteen_channel.jpg */,
@@ -128,6 +151,9 @@
 				57BB919F182B4DD700A3ACF8 /* ViewController.m */,
 				57BB91A1182B4DD700A3ACF8 /* Images.xcassets */,
 				57BB9190182B4DD600A3ACF8 /* Supporting Files */,
+				57BB91C4182B77D300A3ACF8 /* InfoView.xib */,
+				57BB91C6182B787F00A3ACF8 /* InfoViewController.h */,
+				57BB91C7182B787F00A3ACF8 /* InfoViewController.m */,
 			);
 			path = testApp;
 			sourceTree = "<group>";
@@ -135,6 +161,16 @@
 		57BB9190182B4DD600A3ACF8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				57BB91CB182BF76500A3ACF8 /* baseCamera.h */,
+				57BB91CC182BF76500A3ACF8 /* baseCamera.m */,
+				57BB91CD182BF76500A3ACF8 /* cameraFactory.h */,
+				57BB91CE182BF76500A3ACF8 /* cameraFactory.m */,
+				57BB91CF182BF76500A3ACF8 /* eightCamera.h */,
+				57BB91D0182BF76500A3ACF8 /* eightCamera.m */,
+				57BB91D1182BF76500A3ACF8 /* fourCamera.h */,
+				57BB91D2182BF76500A3ACF8 /* fourCamera.m */,
+				57BB91D3182BF76500A3ACF8 /* sixteenCamera.h */,
+				57BB91D4182BF76500A3ACF8 /* sixteenCamera.m */,
 				57BB9191182B4DD700A3ACF8 /* testApp-Info.plist */,
 				57BB9192182B4DD700A3ACF8 /* InfoPlist.strings */,
 				57BB9195182B4DD700A3ACF8 /* main.m */,
@@ -240,6 +276,8 @@
 				57BB91C3182B635100A3ACF8 /* sixteen_channel.jpg in Resources */,
 				57BB91A2182B4DD700A3ACF8 /* Images.xcassets in Resources */,
 				57BB91C2182B635100A3ACF8 /* four_channel.jpg in Resources */,
+				57BB91C5182B77D300A3ACF8 /* InfoView.xib in Resources */,
+				57BB91CA182B7B4400A3ACF8 /* MoubarakJamal_ProfilePicture.jpg in Resources */,
 				57BB91C1182B635100A3ACF8 /* eight_channel.jpg in Resources */,
 				57BB9194182B4DD700A3ACF8 /* InfoPlist.strings in Resources */,
 				57BB919D182B4DD700A3ACF8 /* Main.storyboard in Resources */,
@@ -262,8 +300,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				57BB91A0182B4DD700A3ACF8 /* ViewController.m in Sources */,
+				57BB91D7182BF76500A3ACF8 /* eightCamera.m in Sources */,
 				57BB919A182B4DD700A3ACF8 /* AppDelegate.m in Sources */,
 				57BB9196182B4DD700A3ACF8 /* main.m in Sources */,
+				57BB91D8182BF76500A3ACF8 /* fourCamera.m in Sources */,
+				57BB91D9182BF76500A3ACF8 /* sixteenCamera.m in Sources */,
+				57BB91D6182BF76500A3ACF8 /* cameraFactory.m in Sources */,
+				57BB91D5182BF76500A3ACF8 /* baseCamera.m in Sources */,
+				57BB91C8182B787F00A3ACF8 /* InfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

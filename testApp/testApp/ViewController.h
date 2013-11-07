@@ -8,6 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
+@class cameraFactory;
+@class baseCamera;
+@class fourCamera;
+@class eightCamera;
+@class sixteenCamera;
 @interface ViewController : UIViewController
+{
+    IBOutlet UISegmentedControl *segControl;
+}
+
+-(IBAction)onClick:(id)sender;
+
+
+
+-(IBAction)onChangeColor:(id)sender;
+
 
 @end
