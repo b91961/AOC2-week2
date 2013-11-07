@@ -21,6 +21,9 @@
 		57BB91AB182B4DD700A3ACF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BB918D182B4DD600A3ACF8 /* UIKit.framework */; };
 		57BB91B3182B4DD700A3ACF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57BB91B1182B4DD700A3ACF8 /* InfoPlist.strings */; };
 		57BB91B5182B4DD700A3ACF8 /* testAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BB91B4182B4DD700A3ACF8 /* testAppTests.m */; };
+		57BB91C1182B635100A3ACF8 /* eight_channel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57BB91BE182B635100A3ACF8 /* eight_channel.jpg */; };
+		57BB91C2182B635100A3ACF8 /* four_channel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57BB91BF182B635100A3ACF8 /* four_channel.jpg */; };
+		57BB91C3182B635100A3ACF8 /* sixteen_channel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57BB91C0182B635100A3ACF8 /* sixteen_channel.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		57BB91B0182B4DD700A3ACF8 /* testAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testAppTests-Info.plist"; sourceTree = "<group>"; };
 		57BB91B2182B4DD700A3ACF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		57BB91B4182B4DD700A3ACF8 /* testAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testAppTests.m; sourceTree = "<group>"; };
+		57BB91BE182B635100A3ACF8 /* eight_channel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eight_channel.jpg; sourceTree = "<group>"; };
+		57BB91BF182B635100A3ACF8 /* four_channel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = four_channel.jpg; sourceTree = "<group>"; };
+		57BB91C0182B635100A3ACF8 /* sixteen_channel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sixteen_channel.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,9 @@
 		57BB918F182B4DD600A3ACF8 /* testApp */ = {
 			isa = PBXGroup;
 			children = (
+				57BB91BE182B635100A3ACF8 /* eight_channel.jpg */,
+				57BB91BF182B635100A3ACF8 /* four_channel.jpg */,
+				57BB91C0182B635100A3ACF8 /* sixteen_channel.jpg */,
 				57BB9198182B4DD700A3ACF8 /* AppDelegate.h */,
 				57BB9199182B4DD700A3ACF8 /* AppDelegate.m */,
 				57BB919B182B4DD700A3ACF8 /* Main.storyboard */,
@@ -228,7 +237,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57BB91C3182B635100A3ACF8 /* sixteen_channel.jpg in Resources */,
 				57BB91A2182B4DD700A3ACF8 /* Images.xcassets in Resources */,
+				57BB91C2182B635100A3ACF8 /* four_channel.jpg in Resources */,
+				57BB91C1182B635100A3ACF8 /* eight_channel.jpg in Resources */,
 				57BB9194182B4DD700A3ACF8 /* InfoPlist.strings in Resources */,
 				57BB919D182B4DD700A3ACF8 /* Main.storyboard in Resources */,
 			);
