@@ -44,7 +44,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="System Installed" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="cSo-XN-TVw">
                                 <rect key="frame" x="107" y="65" width="205" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <outlet property="delegate" destination="vXZ-lx-hvc" id="MtK-a2-52U"/>
@@ -53,6 +53,9 @@
                             <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" wraps="YES" value="1" minimumValue="1" maximumValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="hk9-ur-cEj">
                                 <rect key="frame" x="107" y="103" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <action selector="onChange:" destination="vXZ-lx-hvc" eventType="valueChanged" id="Sjw-9o-Dx5"/>
+                                </connections>
                             </stepper>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Border2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V6B-XX-tO7">
                                 <rect key="frame" x="8" y="140" width="304" height="1"/>
@@ -150,7 +153,12 @@
                         <color key="backgroundColor" red="0.90663213320000002" green="0.90663213320000002" blue="0.90663213320000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
+                        <outlet property="addEmployee" destination="hk9-ur-cEj" id="IT8-cA-JJ1"/>
+                        <outlet property="eightButton" destination="dYh-La-R4V" id="0KQ-5r-bfI"/>
+                        <outlet property="fourButton" destination="ZNP-TZ-u3t" id="ow7-oZ-MsM"/>
                         <outlet property="segControl" destination="KON-Bc-OSD" id="kzn-TX-bqT"/>
+                        <outlet property="sixteenButton" destination="AkQ-Tu-Kw3" id="T2F-Ch-bt4"/>
+                        <outlet property="totalEmployees" destination="cSo-XN-TVw" id="hsJ-Wz-4Pd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

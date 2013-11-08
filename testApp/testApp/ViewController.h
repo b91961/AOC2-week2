@@ -15,12 +15,26 @@
 @class sixteenCamera;
 @interface ViewController : UIViewController
 {
+    int value;
+    NSString *sysType;
+    NSString *fourLaborLabel;
+    NSString *eightLaborLabel;
+    NSString *sixteenLaborLabel;
+    IBOutlet UIButton *fourButton;
+    IBOutlet UIButton *eightButton;
+    IBOutlet UIButton *sixteenButton;
+    IBOutlet UIStepper *addEmployee;
+    IBOutlet UITextField *totalEmployees;
     IBOutlet UISegmentedControl *segControl;
+    cameraFactory *CameraFactory;
+    fourCamera *FourCamera;
+    eightCamera *EightCamera;
+    sixteenCamera *SixteenCamera;
 }
 
 -(IBAction)onClick:(id)sender;
 
-
+-(IBAction)onChange:(id)sender;
 
 -(IBAction)onChangeColor:(id)sender;
 

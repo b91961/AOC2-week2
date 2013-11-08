@@ -9,6 +9,9 @@
 #import "baseCamera.h"
 
 @interface fourCamera : baseCamera
+{
+    IBOutlet UIStepper *addEmployee;
+}
 
 @property int hoursPerEmp;
 @property int totalLaborCost;

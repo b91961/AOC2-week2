@@ -19,7 +19,7 @@
     if(self !=nil) {
         [self setEmpAmount:4];
         [self setHoursPerEmp:8];
-        [self setSysType:@"8 Channel CCTV"];
+        [self setSysType:@"8 Channel"];
         [self setAreaLaborCost:0];
         [self setTotalLaborCost:15.50f];
     }
@@ -41,7 +41,7 @@
 -(NSString*) eightChannelLabor {
     [self setAreaLaborCost:((empAmount * hoursPerEmp) * totalLaborCost)];
     NSString *channelLabor = [[NSString alloc] init];
-    channelLabor = [NSString stringWithFormat:@"Total labor cost = $%.02f", self.areaLaborCost];
+    channelLabor = [NSString stringWithFormat:@"$%.02f", self.areaLaborCost];
     return channelLabor;
 }
 
