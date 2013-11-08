@@ -76,22 +76,22 @@
         //4 Channel button disabled
         if (fourButton.enabled == false)
         {
-            fourLaborLabel = [FourCamera fourChannelLabor];
-            totalEmployees.text = [NSString stringWithFormat:@"%@ w/ %d emp = %@", sysType, value, fourLaborLabel];
+            fourLaborLabel = ((value * 8) * 18.00f);
+            totalEmployees.text = [NSString stringWithFormat:@"%@ w/ %d emp = $%d.00", sysType, value, fourLaborLabel];
             totalEmployees.textAlignment = NSTextAlignmentLeft;
         }
         //8 Channel button disabled
         else if (eightButton.enabled == false)
         {
-            eightLaborLabel = [EightCamera eightChannelLabor];
-            totalEmployees.text = [NSString stringWithFormat:@"%@ w/ %d emp = %@", sysType, value, eightLaborLabel];
+            eightLaborLabel = ((value * 8) * 18.00f);
+            totalEmployees.text = [NSString stringWithFormat:@"%@ w/ %d emp = $%d.00", sysType, value, eightLaborLabel];
             totalEmployees.textAlignment = NSTextAlignmentLeft;
         }
         //16 Channel button disabled
         else if (sixteenButton.enabled == false)
         {
-            sixteenLaborLabel = [SixteenCamera sixteenChannelLabor];
-            totalEmployees.text = [NSString stringWithFormat:@"%@ w/ %d emp = %@", sysType, value, sixteenLaborLabel];
+            sixteenLaborLabel = ((value * 8) * 18.00f);
+            totalEmployees.text = [NSString stringWithFormat:@"%@ w/ %d emp = $%d.00", sysType, value, sixteenLaborLabel];
             totalEmployees.textAlignment = NSTextAlignmentLeft;
         }
         //no button selected
@@ -147,6 +147,7 @@
     {
         value = addEmployee.value;
         totalEmployees.text = [NSString stringWithFormat:@"%@ w/ %d employees", sysType, value];
+
         
     }
 }

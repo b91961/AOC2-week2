@@ -16,10 +16,10 @@
 @interface ViewController : UIViewController
 {
     int value;
+    int fourLaborLabel;
+    int eightLaborLabel;
+    int sixteenLaborLabel;
     NSString *sysType;
-    NSString *fourLaborLabel;
-    NSString *eightLaborLabel;
-    NSString *sixteenLaborLabel;
     IBOutlet UIButton *fourButton;
     IBOutlet UIButton *eightButton;
     IBOutlet UIButton *sixteenButton;
